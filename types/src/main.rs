@@ -1,11 +1,6 @@
 // Silence some warnings so they don't distract from the exercise.
 #![allow(dead_code, unused_variables)]
-
-use types::print_difference;
-use types::print_array;
-use types::ding;
-use types::on_off;
-use types::print_distance;
+use types::{print_difference, print_array, ding, on_off, print_difference}
 
 fn main() {
     let coords: (f32, f32) = (6.3, 15.0);
